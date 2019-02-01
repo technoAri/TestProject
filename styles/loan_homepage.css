@@ -1,0 +1,418 @@
+.main-div {
+    margin: 0 auto;
+    max-width: 1440px;
+    min-width: 800px;
+}
+
+.header {
+    background: white;
+    width: 100%;
+    height:60px;
+    display:inline-block;
+    position: relative;
+    clear: both;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.burger-menu {
+    margin-left: 115px;
+    position: absolute;
+    float: left;
+}
+
+.burger-menu-icon {
+    width: 25px;
+    height: 19px;
+    object-fit: contain;
+    box-sizing: border-box;
+    line-height: 60px;
+    vertical-align: middle;
+}
+
+.menu-label {
+    width: 37px;
+    height: 15px;
+    font-family: GothamBlack;
+    font-size: 12px;
+    font-weight: 900;
+    line-height: 60px;
+    color: #333333;
+}
+
+.logo{
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    /* height: 100%; */
+}
+
+.idfc-Bank-Logo {
+    position: relative;
+    width: 90px;
+    height: 38px;
+    object-fit: contain;
+    box-sizing: border-box;
+    margin-top: 10px;
+    line-height: 60px;
+    vertical-align: middle;
+}
+
+.login {
+    position: absolute;
+    right: 115px;
+    float: right;
+}
+
+.login-img {
+    width: 19px;
+    height: 25px;
+    object-fit: contain;
+    box-sizing: border-box;
+    line-height: 60px;
+    vertical-align: middle;
+}
+
+.login-txt {
+    width: 40px;
+    height: 15px;
+    font-family: GothamBlack;
+    font-size: 12px;
+    font-weight: 900;
+    line-height: 60px;
+    color: #333333;
+}
+
+.yellow-space {
+    width: 100%;
+    height: 512px;
+    background: #f9f7ef;
+    display: list-item;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.dark-yellow-space {
+    width: 100%;
+    height: 512px;
+    background: #fcdf8e;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.search {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    float: right;
+    display: block;
+}
+
+.lbl-Personal-Loan {
+    margin-top: 40px;
+    width: 100%;
+    font-family: GothamBook;
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    color: #c98bdb;
+    display: inline-block;
+  }
+
+.lbl-For-all-your-needs-b {
+    width: 609px;
+    height: 18px;
+    font-family: GothamBook;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.13;
+    letter-spacing: normal;
+    text-align: center;
+    color: #4a4a4a;
+  }
+
+.div-subheading {
+    display: inline;
+  }
+
+.ul-items {
+    display: table;
+    width: 65%;
+    clear: both;
+    height: 50%;
+    margin: 0 auto;
+    list-style: none;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+.li-item {
+    width: 33%;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    border: .5px solid gray;
+}
+li:nth-child(2) {
+    border: none;
+    border-top: .5px solid gray;
+    border-bottom: .5px solid gray;
+}
+
+.section-imgs {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.savings-img {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+}
+
+/* .flexibility-img {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+}
+
+.convenience-img {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+} */
+
+.div-list-txt{
+    height: 50%;
+    margin-top: 30px;
+}
+
+.lbl-list-heading {
+    display: block;
+    font-family: GothamBook;
+    font-size: 22px;
+    text-align: center;
+    color: #4a4a4a;
+}
+
+.lbl-list-subheading {
+    display: block;
+    margin-top: 10px;
+    font-family: GothamBook;
+    font-size: 14px;
+    text-align: center;
+    color: #797979;
+}
+
+.lbl-see-more {
+    display: block;
+    font-family: GothamMedium;
+    font-size: 10px;
+    margin-top: 15px;
+    font-weight: 500;
+    text-align: center;
+    color: #fb637e;
+}
+
+.div-dark-yellow-area {
+    position: relative;
+    height: 78%;
+    width: 72%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.lbl-Tell-us-about-you-an {
+    width: 100%;
+    margin-top: 40px;
+    height: 20px;
+    font-family: Gotham Light;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+.img-left-top {
+    /* float: left; */
+    position: absolute;
+    top: 0px;
+    left:0px;
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+
+.img-right-top {
+    /* float: right; */
+    position: absolute;
+    top: 0px;
+    right:0px;
+    width: 30px;
+    height: 3px;
+    object-fit: contain;
+    background-color: #c98bdb;
+}
+
+.img-left-bottom {
+    position: absolute;
+    bottom: 0px;
+    left:0px;
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+
+.img-right-bottom {
+    position: absolute;
+    bottom: 0px;
+    right:0px;
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+
+.div-txt-dark-flx {
+    display: inline-grid;
+    padding-top: 20px;
+}
+.txt-dark-flex {
+    width: 100%;
+    font-family: 'Gotham Light';
+    font-size: 30px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #4a4a4a;
+    line-height: 2;
+}
+
+.rupee-img {
+    width: 15.2px;
+    height: 20.4px;
+    object-fit: contain;
+    padding-left: 5px;
+}
+
+.input-style {
+    width: 200px;
+    height: 20px;
+    font-family: Gotham;
+    font-size: 30px;
+    border:0;
+    border-bottom: 2px dotted;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fb637e;
+    background: #fcdf8e;
+    outline-width: 0;   
+}
+
+.seperator {
+    width:100%;
+    height: 1px;
+    margin: 0 auto;
+    background-color: grey;
+    margin-top: 25px;
+}
+
+.div-checkbox {
+    height: 65px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.checkbox-img {
+    width: 23.8px;
+    height: 24px;
+    object-fit: contain;
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+.txt-credit-card {
+    font-family: GothamBook;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    padding-left: 10px;
+    padding-top: 10px;
+    letter-spacing: normal;
+    color: #4a4a4a;
+}
+
+.seperator2 {
+    width:100%;
+    height: 1px;
+    margin: 0 auto;
+    background-color: grey;
+}
+
+.add-section {
+    width: 360px;
+    height: 47px;
+    position: relative;
+    border: 1px gray dotted;
+    margin: 0 auto;
+    display: flex;
+    box-sizing: border-box;
+    margin-top: 30px;
+    background: white;
+}
+
+.add-image {
+    width: 20px;
+    height: 100%;
+    object-fit: contain;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.add-btn {
+    width: 290px;
+    height: 100%;
+    justify-content: flex-end;
+    border-left: 1px gray dotted;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    background: white;
+    font-family: GothamBook;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #4a4a4a;
+    text-align: center;
+    line-height: 55px;
+}
+
+.footer {
+    width: 100%;
+    height: 320px;
+    background: white;
+}
