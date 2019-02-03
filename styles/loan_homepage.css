@@ -439,6 +439,9 @@ li:nth-child(2) {
     /* align-items: center; */
     box-sizing: border-box;
     padding: 0px 110px 110px 110px;
+    margin: 0 auto;
+    max-width: 1440px;
+    min-width: 800px;
 }
 
 .footer-column-items {
@@ -451,21 +454,24 @@ li:nth-child(2) {
 
 .footer-boder-up-first {
     height: 2px;
-    width: 100%;
+    width: 85%;
+    display: inline-block;
+    /* justify-content: flex-start; */
     box-sizing: border-box;
     margin-block-start: 0px;
     margin-block-end: 0px;
-    margin-top: 40px;
+    margin-top: 45px;
     background: red;
     border-width: 0px;
 }
 .footer-boder-up-second {
     height: 2px;
-    width: 100%;
+    width: 85%;
+    display: inline-block;
     box-sizing: border-box;
     margin-block-start: 0px;
     margin-block-end: 0px;
-    margin-top: 40px;
+    margin-top: 45px;
     background: yellow;
     border-width: 0px;
 }
@@ -476,18 +482,61 @@ li:nth-child(2) {
     box-sizing: border-box;
     margin-block-start: 0px;
     margin-block-end: 0px;
-    margin-top: 40px;
+    margin-top: 45px;
     background: pink;
     border-width: 0px;
 }
 
 .footer-boder-up-fourth {
     height: 2px;
-    width: 100%;
+    width: 85%;
+    display: inline-block;
     box-sizing: border-box;
     margin-block-start: 0px;
     margin-block-end: 0px;
-    margin-top: 40px;
-    background: yellowgreen;
+    margin-top: 45px;
+    background: pink;
     border-width: 0px;
+}
+
+.footer-boder-up-fifth {
+    height: 2px;
+    width: 85%;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-top: 45px;
+    background: rebeccapurple;
+    border-width: 0px;
+}
+
+.lbl-copyright {
+    /* box-sizing: border-box; */
+    display: flex;
+    margin-top: 30px;
+    color: grey;
+    font-family: GothamBook;
+    line-height: 1.5;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.lbl-company {
+    display: flex;
+    margin-top: 30px;
+    color: grey;
+    font-family: GothamMedium;
+    line-height: 1.5;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.lbl-items{
+    display: block;
+    font-family: GothamBook;
+    line-height: 1.5;
+    font-size: 12px;
+    font-weight: bold;
+    color: grey;
 }
