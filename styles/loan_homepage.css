@@ -50,7 +50,7 @@
     align-items: center;
 }
 
-.idfc-Bank-Logo {
+.idfc-bank-Logo {
     width: 90px;
     height: 38px;
     object-fit: contain;
@@ -249,7 +249,7 @@ li:nth-child(2) {
     margin-top: 20px;
 }
 
-.lbl-Tell-us-about-you-an {
+.lbl-tell-us-about-you-an {
     width: 100%;
     margin-top: 40px;
     height: 20px;
@@ -345,7 +345,7 @@ li:nth-child(2) {
     outline-width: 0;   
 }
 
-.seperator {
+.seperator-first {
     width:100%;
     height: 1px;
     margin: 0 auto;
@@ -379,7 +379,7 @@ li:nth-child(2) {
     color: #4a4a4a;
 }
 
-.seperator2 {
+.seperator-second {
     width:100%;
     height: 1px;
     margin: 0 auto;
@@ -517,7 +517,7 @@ li:nth-child(2) {
     margin-top: 30px;
     color: lightgrey;
     font-family: GothamBook;
-    line-height: 1.5;
+    line-height: 1.8;
     font-size: 12px;
     font-weight: bold;
 }
@@ -535,7 +535,7 @@ li:nth-child(2) {
 .lbl-items{
     display: block;
     font-family: GothamBook;
-    line-height: 1.5;
+    line-height: 1.8;
     font-size: 12px;
     font-weight: bold;
     color: lightgrey;
