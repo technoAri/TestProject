@@ -559,7 +559,7 @@ li:nth-child(2) {
     display: flex;
     align-items: flex-end;
     background: #fdfcf7;
-    background-image: url(../assets/curly-background.jpg);
+    background-image: url(../assets/images/curly-background.jpg);
     background-repeat: repeat-x;
 }
 
@@ -567,7 +567,7 @@ li:nth-child(2) {
     display: flex;
     align-items: flex-end;
     background: #fdfcf7;
-    background-image: url(../assets/curly-background.jpg);
+    background-image: url(../assets/images/curly-background.jpg);
     background-repeat: repeat-x;
     transform: rotate(180deg);
 }
