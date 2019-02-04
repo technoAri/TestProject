@@ -190,7 +190,8 @@
 
 .div-list-txt{
     height: 50%;
-    margin-top: 30px;
+    box-sizing: border-box;
+    padding-top: 30px;
 }
 
 .lbl-list-heading {
