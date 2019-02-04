@@ -1,0 +1,29 @@
+.max-width {
+    max-width: 1280px;
+}
+.cursor {
+    cursor: pointer;
+}
+
+.wave {
+    position: relative;
+    background: #e0efe3;
+  }
+  .wave:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100;
+  }
+  .wave:after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 300px;
+    height: 70px;
+    background-color: #e0efe3;
+    left: 0;
+    top: 27px;
+  }

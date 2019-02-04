@@ -7,29 +7,26 @@
 .header {
     background: white;
     max-width: 1200px;
-    min-width: 800px;
     width: 100%;
     height:60px;
     display: flex;
     justify-content: space-between;
-    clear: both;
     align-items: center;
     box-sizing: border-box;
     margin: 0 auto;
 }
 
 .burger-menu {
-    float: left;
     cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .burger-menu-icon {
     width: 25px;
     height: 19px;
-    object-fit: contain;
     box-sizing: border-box;
-    line-height: 60px;
-    vertical-align: middle;
     cursor: pointer;
 }
 
@@ -40,6 +37,7 @@
     line-height: 60px;
     color: #333333;
     cursor: pointer;
+    margin-left: 5px;
 }
 
 .logo{
@@ -51,40 +49,31 @@
 .idfc-bank-Logo {
     width: 90px;
     height: 38px;
-    object-fit: contain;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     cursor: pointer;
 }
 
 .login {
+    display: flex;
     justify-content: flex-end;
     align-items: center;
-    float: right;
+    align-items: center;
     cursor: pointer;
 }
 
 .login-img {
     width: 19px;
     height: 25px;
-    object-fit: contain;
-    box-sizing: border-box;
-    line-height: 60px;
-    vertical-align: middle;
     cursor: pointer;
 }
 
 .login-txt {
-    width: 40px;
-    height: 15px;
     font-family: GothamBlack;
     font-size: 12px;
     font-weight: 900;
     line-height: 60px;
     color: #333333;
     cursor: pointer;
+    margin-left: 5px;
 }
 
 .yellow-space {
@@ -118,24 +107,22 @@
 
 .lbl-Personal-Loan {
     margin-top: 40px;
-    width: 100%;
     font-family: GothamBook;
     font-size: 30px;
     font-weight: normal;
     font-style: normal;
     color: #c98bdb;
     display: inline-block;
+    text-align: center;
   }
 
 .lbl-For-all-your-needs-b {
-    width: 609px;
     height: 18px;
     font-family: GothamBook;
     font-size: 16px;
     font-weight: normal;
     font-style: normal;
-    font-stretch: normal;
-    line-height: 1.13;
+    line-height: 2.5;
     letter-spacing: normal;
     text-align: center;
     color: #4a4a4a;
@@ -145,13 +132,11 @@
     display: inline;
     margin: 0 auto;
     max-width: 1440px;
-    min-width: 800px;
   }
 
 .ul-items {
     margin: 0 auto;
     max-width: 1440px;
-    min-width: 800px;
     display: table;
     width: 65%;
     clear: both;
@@ -170,7 +155,7 @@
     vertical-align: middle;
     border: .5px solid gray;
 }
-li:nth-child(2) {
+.li-item:nth-child(2) {
     border: none;
     border-top: .5px solid gray;
     border-bottom: .5px solid gray;
@@ -239,7 +224,6 @@ li:nth-child(2) {
 .div-dark-yellow-area {
     margin: 0 auto;
     max-width: 1440px;
-    min-width: 800px;
     position: relative;
     height: 78%;
     width: 72%;
@@ -278,9 +262,9 @@ li:nth-child(2) {
     top: 0px;
     right:0px;
     width: 30px;
-    height: 3px;
+    height: 30px;
     object-fit: contain;
-    background-color: #c98bdb;
+    transform: rotate(90deg);
 }
 
 .img-left-bottom {
@@ -384,7 +368,7 @@ li:nth-child(2) {
     background-color: grey;
 }
 
-.add-section {
+.add-div {
     width: 360px;
     height: 47px;
     position: relative;
@@ -416,11 +400,6 @@ li:nth-child(2) {
     background: white;
     font-family: GothamBook;
     font-size: 16px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
     color: #4a4a4a;
     text-align: center;
     line-height: 55px;
@@ -434,12 +413,10 @@ li:nth-child(2) {
     display: flex;
     justify-content: space-between;
     clear: both;
-    /* align-items: center; */
     box-sizing: border-box;
     padding: 0px 110px 110px 110px;
     margin: 0 auto;
     max-width: 1440px;
-    min-width: 800px;
 }
 
 .footer-column-items {
@@ -447,14 +424,12 @@ li:nth-child(2) {
     height: 100%;
     display: block;
     align-items: flex-start;
-    /* background: #333333; */
 }
 
 .footer-boder-up-first {
     height: 2px;
     width: 85%;
     display: inline-block;
-    /* justify-content: flex-start; */
     box-sizing: border-box;
     margin-block-start: 0px;
     margin-block-end: 0px;
@@ -510,7 +485,6 @@ li:nth-child(2) {
 }
 
 .lbl-copyright {
-    /* box-sizing: border-box; */
     display: flex;
     margin-top: 30px;
     color: lightgrey;
@@ -543,7 +517,6 @@ li:nth-child(2) {
 .section-social-icons{
     height: 50px;
     width: 80%;
-    /* background: #333333; */
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
@@ -560,6 +533,7 @@ li:nth-child(2) {
     align-items: flex-end;
     background: #fdfcf7;
     background-image: url(../assets/images/curly-background.jpg);
+    background-size: 50px; 
     background-repeat: repeat-x;
 }
 
@@ -568,6 +542,7 @@ li:nth-child(2) {
     align-items: flex-end;
     background: #fdfcf7;
     background-image: url(../assets/images/curly-background.jpg);
+    background-size: 50px;
     background-repeat: repeat-x;
     transform: rotate(180deg);
 }
