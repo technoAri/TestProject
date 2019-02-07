@@ -49,10 +49,10 @@ src: local('Gotham Medium'), url('GothamMedium_1.woff') format('woff');
 
 
 @font-face {
-font-family: 'Gotham Medium';
+font-family: 'GothamMedium';
 font-style: normal;
 font-weight: normal;
-src: local('Gotham Medium'), url('GothamMediumItalic.woff') format('woff');
+src: url(../assets/fonts/GothamMedium.woff);
 }
 
 

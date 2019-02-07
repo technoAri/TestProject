@@ -83,7 +83,7 @@
 
 .yellow-space {
     width: 100%;
-    height: 512px;
+    height: 500px;
     background: #fdfcf7;
     display: list-item;
     text-align: center;
@@ -144,8 +144,8 @@
     max-width: 1280px;
     display: table;
     width: 65%;
+    height: 50%;
     clear: both;
-    height: 60%;
     margin: 0 auto;
     list-style: none;
     box-sizing: border-box;
