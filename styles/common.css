@@ -5,25 +5,220 @@
     cursor: pointer;
 }
 
-.wave {
-    position: relative;
-    background: #e0efe3;
-  }
-  .wave:before {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100;
-  }
-  .wave:after {
-    content: "";
+.header {
+    background: white;
+    width: 100%;
+    height:60px;
+    margin: 0 auto;
+}
+
+.header-div {
+    max-width: 1280px;
+    width: 90%;
+    height:60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.burger-menu {
+    /* cursor: pointer; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.burger-menu-icon {
+    width: 25px;
+    height: 19px;
+    box-sizing: border-box;
+    /* cursor: pointer; */
+}
+
+.menu-label {
+    font-family: GothamBlack;
+    font-size: 12px;
+    font-weight: 900;
+    line-height: 60px;
+    color: #333333;
+    /* cursor: pointer; */
+    margin-left: 5px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.idfc-bank-Logo {
+    width: 90px;
+    height: 38px;
+    /* cursor: pointer; */
+}
+
+.login {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.login-img {
+    width: 19px;
+    height: 25px;
+    /* cursor: pointer; */
+}
+
+.login-txt {
+    font-family: GothamBlack;
+    font-size: 12px;
+    font-weight: 900;
+    line-height: 60px;
+    color: #333333;
+    /* cursor: pointer; */
+    margin-left: 5px;
+}
+
+.footer {
+    width: 100%;
+    height: 320px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    clear: both;
+    box-sizing: border-box;
+    padding: 0px 110px 110px 110px;
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+.footer-column-items {
+    width: 20%;
+    height: 100%;
     display: block;
-    position: absolute;
-    border-radius: 100% 50%;
-    width: 300px;
-    height: 70px;
-    background-color: #e0efe3;
-    left: 0;
-    top: 27px;
-  }
+    align-items: flex-start;
+}
+
+.footer-boder-up-first {
+    height: 3px;
+    width: 85%;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-top: 45px;
+    background: red;
+    border-width: 0px;
+}
+.footer-boder-up-second {
+    height: 3px;
+    width: 85%;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-top: 45px;
+    background: yellow;
+    border-width: 0px;
+}
+
+.footer-boder-up-third {
+    height: 3px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-top: 45px;
+    background: pink;
+    border-width: 0px;
+}
+
+.footer-boder-up-fourth {
+    height: 3px;
+    width: 85%;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-top: 45px;
+    background: pink;
+    border-width: 0px;
+}
+
+.footer-boder-up-fifth {
+    height: 3px;
+    width: 85%;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-top: 45px;
+    background: rebeccapurple;
+    border-width: 0px;
+}
+
+.lbl-copyright {
+    display: flex;
+    margin-top: 30px;
+    color: lightgrey;
+    font-family: GothamBook;
+    line-height: 1.8;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.lbl-company {
+    display: flex;
+    margin-top: 30px;
+    color: lightgrey;
+    font-family: GothamMedium;
+    line-height: 1.5;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.lbl-items{
+    display: block;
+    font-family: GothamBook;
+    line-height: 1.8;
+    font-size: 12px;
+    font-weight: bold;
+    color: lightgrey;
+    cursor: pointer;
+}
+
+.section-social-icons{
+    height: 50px;
+    width: 80%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.social-icons {
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+}
+
+.background-img-div {
+    display: flex;
+    align-items: flex-end;
+    background: #fdfcf7;
+    background-image: url(../assets/images/curly-background.jpg);
+    background-size: 50px; 
+    background-repeat: repeat-x;
+}
+
+.background-img-div-rotate {
+    display: flex;
+    align-items: flex-end;
+    background: #fdfcf7;
+    background-image: url(../assets/images/curly-background.jpg);
+    background-size: 50px;
+    background-repeat: repeat-x;
+    transform: rotate(180deg);
+}

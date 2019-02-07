@@ -4,7 +4,7 @@
     min-width: 800px; */
 }
 
-.header {
+/* .header {
     background: white;
     width: 100%;
     height:60px;
@@ -79,7 +79,7 @@
     color: #333333;
     cursor: pointer;
     margin-left: 5px;
-}
+} */
 
 .yellow-space {
     width: 100%;
@@ -111,7 +111,7 @@
 }
 
 .lbl-Personal-Loan {
-    margin-top: 40px;
+    margin-top: 60px;
     font-family: GothamBook;
     font-size: 30px;
     font-weight: normal;
@@ -145,7 +145,7 @@
     display: table;
     width: 65%;
     clear: both;
-    height: 50%;
+    height: 60%;
     margin: 0 auto;
     list-style: none;
     box-sizing: border-box;
@@ -369,7 +369,7 @@
 
 .seperator-second {
     width:100%;
-    height: 1px;
+    height: 2px;
     margin: 0 auto;
     background-color: grey;
 }
@@ -412,7 +412,7 @@
     cursor: pointer;
 }
 
-.footer {
+/* .footer {
     width: 100%;
     height: 320px;
     background: white;
@@ -551,4 +551,4 @@
     background-size: 50px;
     background-repeat: repeat-x;
     transform: rotate(180deg);
-}
+} */
