@@ -222,7 +222,7 @@
 
 .background-img-div-rotate {
     display: flex;
-    align-items: flex-end;
+    align-items: flex-start;
     flex-wrap: wrap;
     background: #fdfcf7;
     background-image: url(../assets/images/curly-background.jpg);
