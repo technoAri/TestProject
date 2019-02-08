@@ -89,6 +89,7 @@
     text-align: center;
     margin: 0 auto;
     max-width: 100%;
+    min-width: v;
 }
 
 .dark-yellow-space {
@@ -118,16 +119,17 @@
     font-style: normal;
     color: #c98bdb;
     display: inline-block;
-    text-align: center;
   }
 
-.lbl-For-all-your-needs-b {
+.lbl-for-all-your-needs-b {
     height: 18px;
     font-family: GothamBook;
     font-size: 16px;
     font-weight: normal;
     font-style: normal;
-    line-height: 2.5;
+    box-sizing: border-box;
+    padding: 15px;
+    /* line-height: 2.5; */
     letter-spacing: normal;
     text-align: center;
     color: #4a4a4a;
@@ -142,14 +144,15 @@
 .ul-items {
     margin: 0 auto;
     max-width: 1280px;
-    display: table;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     width: 65%;
     height: 50%;
     clear: both;
-    margin: 0 auto;
     list-style: none;
     box-sizing: border-box;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .li-item {
@@ -173,6 +176,7 @@
     justify-content: center;
     align-items: center;   
     cursor: pointer;
+    flex-wrap: wrap;
 }
 .savings-img {
     display: flex;
@@ -197,6 +201,7 @@
     height: 50%;
     box-sizing: border-box;
     padding-top: 30px;
+    flex-wrap: wrap;
 }
 
 .lbl-list-heading {
@@ -205,6 +210,7 @@
     font-size: 22px;
     text-align: center;
     color: #4a4a4a;
+    /* text-overflow: ellipsis; */
 }
 
 .lbl-list-subheading {
@@ -232,6 +238,7 @@
     max-width: 1280px;
     position: relative;
     height: 78%;
+    max-height: auto;
     width: 72%;
     margin: 0 auto;
     margin-top: 20px;
@@ -306,6 +313,7 @@
     letter-spacing: normal;
     color: #4a4a4a;
     line-height: 2;
+    min-width: auto;
 }
 
 .rupee-img {
@@ -369,7 +377,7 @@
 
 .seperator-second {
     width:100%;
-    height: 2px;
+    height: 1px;
     margin: 0 auto;
     background-color: grey;
 }
@@ -384,6 +392,7 @@
     box-sizing: border-box;
     margin-top: 30px;
     background: white;
+    border-radius: 6px;
 }
 
 .add-image {
@@ -410,6 +419,8 @@
     text-align: center;
     line-height: 55px;
     cursor: pointer;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
 }
 
 /* .footer {
