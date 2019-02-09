@@ -341,7 +341,7 @@
 }
 
 .seperator-first {
-    width:100%;
+    width:90%;
     height: 1px;
     margin: 0 auto;
     background-color: grey;
@@ -375,7 +375,7 @@
 }
 
 .seperator-second {
-    width:100%;
+    width:90%;
     height: 1px;
     margin: 0 auto;
     background-color: grey;
